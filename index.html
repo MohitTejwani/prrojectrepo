@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Repository</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Google Fonts
+		============================================ -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./assets/plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="./assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="./assets/dist/css/adminlte.min.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="./assets/plugins/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" href="styles.9ed56cdce8c00dc5d7a6.css"></head>
+
+<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+  <div class="wrapper">
+    <app-root></app-root>
+  </div>
+
+
+
+
+
+
+  <!-- REQUIRED SCRIPTS -->
+  <!-- jQuery -->
+  <script src="./assets/plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- overlayScrollbars -->
+  <script src="./assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="./assets/dist/js/adminlte.js"></script>
+  <!-- ChartJS -->
+  <script src="./assets/plugins/chart.js/Chart.min.js"></script>
+  <!-- OPTIONAL SCRIPTS -->
+  <script src="./assets/dist/js/demo.js"></script>
+
+  <!-- PAGE PLUGINS -->
+  <!-- jQuery Mapael plugins/raphael/raphael.min.js-->
+  <script src="./assets/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+  <script src="./assets/plugins/raphael/raphael.min.js"></script>
+  <script src="./assets/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+  <script src="./assets/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+  <!-- ChartJS -->
+  <script src="assets/plugins/chart.js/Chart.min.js"></script>
+  <!-- FLOT CHARTS -->
+
+  <!-- PAGE SCRIPTS -->
+  <script src="./assets/dist/js/pages/dashboard2.js"></script>
+
+  <!-- DAta Table -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script>
+    function mySearch() {
+      $(document).ready(function () {
+        $("#myInput").on("keyup", function () {
+          var value = $(this).val().toLowerCase();
+          $("#myTable tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+    }
+    function myFunction() {
+      var copyText = document.getElementById("myInputsID");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy");
+    }
+  
+
+
+  </script>
+
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.3b00e3134c984e60b99d.js"></script><script type="text/javascript" src="scripts.ad1d3613026edc936a00.js"></script><script type="text/javascript" src="main.925af6552b42339ffbdb.js"></script></body>
+
+</html>
